@@ -1,0 +1,6 @@
+ELK: 192.168.68.16:5601 (WILL MOST LIKELY CHANGE DUE TO DHCP-Just Change Endpoint to new IP, should work due to 0.0.0.0 configs
+
+kibanaadmin/kibana!
+
+Win10: 192.168.189.144
+
