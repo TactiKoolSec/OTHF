@@ -57,6 +57,13 @@ vagrant plugin install vagrant-windows-domain
 
 vagrant plugin install reload
 
+Remove Vbox DHCPServer
+
+vboxmanage list dhcpservers
+
+vboxmanage dhcpserver remove --network="HostInterfaceNetworking-VirtualBox
+Host-Only Ethernet Adapter"
+
 Build
 
 Provision Domain Controller
