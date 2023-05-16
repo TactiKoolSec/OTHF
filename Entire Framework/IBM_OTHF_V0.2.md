@@ -4,7 +4,7 @@ V0.1
 
 **Table of Content**
 
-[1 Introduction](#introduction)
+[1 Introduction](#acknowledgements)
 
 [2 Foundational](#foundational)
 
@@ -174,6 +174,12 @@ Sector](#_Toc109040035)
 [Figure 21: Example Threat Hunt - MITRE Navigator - TTPs](#_Toc109040036)
 
 [Figure 22: Example Threat Assessment - assessing likelihood](#_Toc109040037)
+
+# Acknowledgements
+
+Thank you to everyone who has helped in various ways to create this project. We
+hope we can continue to grow this framework to help more people succeed in
+threat hunting.
 
 # Introduction
 
@@ -2839,15 +2845,11 @@ to improve your SOC or CIRT.
     expectations on particular types of hunts and the time required to perform
     them effectively.
 
--   
-
 -   Alerts Created – There are many cases where a hunter will discover something
     that can be turned into an alert. Tracking how many alerts are suggested by
     your hunters will allow you to understand the number of alerts created in
     house versus from external sources and what the difference in the value of
     those alerts might be.
-
--   
 
 -   Reports Created – A hunter may discover some data of interest that’s not
     alertable, but is worth looking into. Daily or weekly reports can be a great
@@ -2858,8 +2860,6 @@ to improve your SOC or CIRT.
     outliers and the data is always changing. You don’t need an alert, you need
     a report.
 
--   
-
 -   Threat Intelligence Generated – Hunters can provide you with intelligence
     that is directly tied to your organization by looking at an undetected
     attack and “We saw this type of activity, from this region, in this area of
@@ -2867,8 +2867,6 @@ to improve your SOC or CIRT.
     that should be decommissioned from your program as hunting using old threat
     intelligence can be incredibly frustrating and can misuse the limited time
     dedicated to threat hunting.
-
--   
 
 -   Automation Playbooks Created – While you can’t automate threat hunting
     completely, there are types of data collection or responses to certain type
@@ -2878,16 +2876,12 @@ to improve your SOC or CIRT.
     expected time saved by implementing this playbook is a great metric to
     capture as well.
 
--   
-
 -   Declared Incidents or IR Engagements Generated – Documenting how often a
     hunt leads to evidence of an actual breach is crucial. Most organization,
     and even many security professionals believe that this is the sole benefit,
     or goal, of threat hunting. Comparing the number of declared incidents
     triggered by threat hunting versus traditional alerts can also demonstrate
     the value of hunting in identifying the most critical attacks.
-
--   
 
 -   Data Source Blind Spots Discovered – When attempting to prove out a
     hypothesis hunters may discover that the organization is lacking access to
@@ -2896,15 +2890,11 @@ to improve your SOC or CIRT.
     uses one to go undetected is incredibly valuable and should be documented
     and shared.
 
--   
-
 -   Security Recommendations Communicated – At times hunters may identify a
     misconfiguration, gap, vulnerability, or technology that’s not working as it
     should or is leaving the organization exposed to potential attacks. A
     mechanism to receive feedback from hunters on what could be done to improve
     the security of the organization should be part of any hunt program.
-
--   
 
 -   Community Engagement Opportunities – Threat hunting provides an incredible
     number of learning opportunities both for the hunter themselves, the team
