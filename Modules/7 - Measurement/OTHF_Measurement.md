@@ -68,8 +68,6 @@ and metrics easier to manage:
     the process and tools you select are ones the team isn’t interested in using
     you’re going to have a much harder time getting quality results from them.
 
--   
-
 -   Use a method that’s shareable with the entire team. This allows hunters to
     keep notes on what they’re currently engaged in so that if they feel the
     need to hand off the hunt at the end of a shift the next hunter can pick up
@@ -186,15 +184,11 @@ to improve your SOC or CIRT.
     expectations on particular types of hunts and the time required to perform
     them effectively.
 
--   
-
 -   Alerts Created – There are many cases where a hunter will discover something
     that can be turned into an alert. Tracking how many alerts are suggested by
     your hunters will allow you to understand the number of alerts created in
     house versus from external sources and what the difference in the value of
     those alerts might be.
-
--   
 
 -   Reports Created – A hunter may discover some data of interest that’s not
     alertable, but is worth looking into. Daily or weekly reports can be a great
@@ -205,8 +199,6 @@ to improve your SOC or CIRT.
     outliers and the data is always changing. You don’t need an alert, you need
     a report.
 
--   
-
 -   Threat Intelligence Generated – Hunters can provide you with intelligence
     that is directly tied to your organization by looking at an undetected
     attack and “We saw this type of activity, from this region, in this area of
@@ -214,8 +206,6 @@ to improve your SOC or CIRT.
     that should be decommissioned from your program as hunting using old threat
     intelligence can be incredibly frustrating and can misuse the limited time
     dedicated to threat hunting.
-
--   
 
 -   Automation Playbooks Created – While you can’t automate threat hunting
     completely, there are types of data collection or responses to certain type
@@ -225,16 +215,12 @@ to improve your SOC or CIRT.
     expected time saved by implementing this playbook is a great metric to
     capture as well.
 
--   
-
 -   Declared Incidents or IR Engagements Generated – Documenting how often a
     hunt leads to evidence of an actual breach is crucial. Most organization,
     and even many security professionals believe that this is the sole benefit,
     or goal, of threat hunting. Comparing the number of declared incidents
     triggered by threat hunting versus traditional alerts can also demonstrate
     the value of hunting in identifying the most critical attacks.
-
--   
 
 -   Data Source Blind Spots Discovered – When attempting to prove out a
     hypothesis hunters may discover that the organization is lacking access to
@@ -243,15 +229,11 @@ to improve your SOC or CIRT.
     uses one to go undetected is incredibly valuable and should be documented
     and shared.
 
--   
-
 -   Security Recommendations Communicated – At times hunters may identify a
     misconfiguration, gap, vulnerability, or technology that’s not working as it
     should or is leaving the organization exposed to potential attacks. A
     mechanism to receive feedback from hunters on what could be done to improve
     the security of the organization should be part of any hunt program.
-
--   
 
 -   Community Engagement Opportunities – Threat hunting provides an incredible
     number of learning opportunities both for the hunter themselves, the team
@@ -287,15 +269,11 @@ receive from your team and from management.
     need to make the case for more resources for you and your team. This metric
     does that.
 
--   
-
 -   MITRE ATT&CK IDs Investigated – ATT&CK is an invaluable source of the kind
     of threat intelligence that really matters, TTPs. Decide which techniques
     are relevant to the technologies you have within your organization and look
     for evidence of those TTPs. Move through them systematically from most
     likely to least likely and document your journey.
-
--   
 
 -   Misconfigurations Discovered – Some vulnerabilities aren’t malicious or
     aren’t failings in the design or coding of an asset. Sometimes they’re just
@@ -303,8 +281,6 @@ receive from your team and from management.
     right, that they’ve secured the system as requested but sometimes looking at
     the traffic being sent, or the behavior of the device itself shows that
     despite the best intentions mistakes can happen.
-
--   
 
 -   Vulnerabilities Discovered/Identified – Finding evidence that a
     vulnerability exists within your environment before an attacker does is
@@ -314,14 +290,10 @@ receive from your team and from management.
     and increase your coverage before an attacker has the chance to use this
     against you.
 
--   
-
 -   Cleartext Protocols in Use – Cleartext protocols exist in every environment,
     even ones that don’t think they’re using them. Are you aware of how much FTP
     traffic leaves your organization? Why are you still using clear text
     protocols when encrypted alternatives exist?
-
--   
 
 -   Overall Percentage of Encrypted vs Unencrypted Traffic – This is a simple
     metric but one that any organization should be aware of. What the *actual*
@@ -330,8 +302,6 @@ receive from your team and from management.
     Knowing what your threshold is and at what point you may need to implement a
     decryption solution will allow you to forecast that expense and communicate
     your need to management as that time approaches.
-
--   
 
 -   Cleartext Usernames/Passwords Discovered – An incredibly common part of any
     breach is credential abuse, whether being used for initial entry or for
@@ -349,16 +319,12 @@ receive from your team and from management.
     critical, but you can’t trust that everything has been taken care of, you
     have to go and look.
 
--   
-
 -   Unaccounted for Assets Discovered – At times you may discover an endpoint,
     or many endpoints, that you don’t have a record of. We’ve seen this range
     from a single server to an entire building’s worth of assets. Without proper
     asset management we’re blind to what we’re defending. Keep a record of what
     was discovered and why it went unaccounted for so you can close the gap on
     the asset itself as well as potentially improve the process for discovery.
-
--   
 
 -   Attacker Tools Discovered – Evidence that any type of attacker tool in the
     environment is something you should be keeping careful track of. If it might
@@ -367,19 +333,21 @@ receive from your team and from management.
     deleted from your antivirus logs could be worth investigating. AV did its
     job, but why was that being written to disk somewhere in the first place?
 
--   
-
 -   Malware Discovered – Speaking of malware. Proper investigation of why
     malware is present on endpoints in your organization can help you understand
     whether the attack is of a ‘spray and pray’ nature, or if your user was
     being targeted specifically. Understanding the difference can have a huge
     impact on how you respond.
 
--   
-
 -   Prohibited Protocols in Use – It’s incredibly common to hear thing like “We
-    don’t allow bittorrent.” or “There is no Tor traffic on our network.” Only
+    don’t allow Bit Torrent.” or “There is no Tor traffic on our network.” Only
     to discover that’s not the case just by looking at the sessions passing
     through the network. Discovering protocols you’ve prohibited can mean
     something as small as a policy violation to a full scale breach. Always
     inventory your protocols and any deviations from your allowed list.
+
+Interesting Reads Regarding Hunting Metrics:
+
+<https://medium.com/@jshlbrd/creating-tracking-threat-hunting-metrics-fc66e6b84076>
+
+<https://theartofservice.com/cyber-threat-hunting-what-key-performance-indicators-will-you-be-measured-against.html>

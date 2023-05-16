@@ -2776,8 +2776,6 @@ Here are some things you’ll want to include when documenting your hunt:
     X egress point.” or “We believe Cobalt Strike C2 beaconing could be taking
     place on our network.”
 
--   
-
 -   Threat Intelligence Sources – What threat intelligence was used in order to
     develop this hypothesis or help with its investigation. This should be
     documented because as you work through each hypothesis you’ll find which
@@ -2905,6 +2903,14 @@ to improve your SOC or CIRT.
     engagement can lead to ideas, innovations, and information sharing that will
     not only increase the overall security of your organization but increase its
     brand recognition as well.
+
+Interesting Reads Regarding Metrics
+
+Interesting Reads Regarding Hunting Metrics:
+
+<https://medium.com/@jshlbrd/creating-tracking-threat-hunting-metrics-fc66e6b84076>
+
+<https://theartofservice.com/cyber-threat-hunting-what-key-performance-indicators-will-you-be-measured-against.html>
 
 ### Attack Surface Reduction
 
