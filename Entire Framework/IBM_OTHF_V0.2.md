@@ -1925,7 +1925,9 @@ designed with testability and context to drive specifics.
 
 **Given** a Microsoft Exchange CAS is vulnerable to CVE-2021-26855 &
 CVE-2021-27065, **when** a remote adversary leverages the ProxyLogon RCE module
-within Metasploit to establish
+within Metasploit to establish interactive access to the system, **then** a
+malicious ASPX file will be written to C:\\Program Files\\Microsoft\\V15\\Front
+End\\HttpProxy\\owa\\auth\\ or c:\\inetpub\\wwwroot.
 
 #### Validate Data
 
